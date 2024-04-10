@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GREENDEN</title>
+  <link href="
+  https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+  " rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+    <h1 class="text-2xl">GREENDEN</h1>
+ <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+     <div class="flex gap-5 hidden md:flex">
+      <p class="hover:underline hover:text-purple-500"><a href="index.html">HOME</a></p>
+      <P class="hover:underline hover:text-purple-500"><a href="product-2.html">PRODUCT</a></P>
+      <P class="hover:underline hover:text-purple-500"><a href="contact-3.html">CONTACT</a></P>
+  </nav>
+  <!-- SIDE NAVABAR -->
+  <section id="sidebar" class=" bg-green-200 fixed z-20 top-0 right-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+    <div class="text-right font-semibold cursor-pointer p-5" style="font-size: x-large;">
+      <p id="closenav" class="inline">x</p>
+    </div>
+  <div class="flex flex-col items-center gap-5 md:flex">
+    <p class="hover:underline hover:text-purple-500"><a href="index.html">HOME</a></p>
+    <P class="hover:underline hover:text-purple-500"><a href="product-2.html">PRODUCT</a></P>
+    <P class="hover:underline hover:text-purple-500"><a href="contact-3.html">CONTACT</a></P>
+    </div>
+  </section>
+  <!-- PRODUCT -->
+  <div class="mt-5">
+  <div class="p-3 text-center" >
+    <h2 class="font-bold text-2xl">OUR PRODUCT</h2>
+    <input type="text " id="search" placeholder="SEARCH FOR PRODUCT" class="border border-black m-2 p-3" style="width: 80%;">
+  </div>
+  </div>
+  <!-- IMAGES -->
+  <div id="container" class=" container md:ml-12 grid grid-cols-2 md:grid-cols-4">
+    <div class="m-5">
+      <img src="./images/flower-1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+      <h1>ROSE PLANT</h1>
+      <P>$20</P>
+    </div>
+    <div class="m-5">
+      <img src="./images/flower-2.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+      <h1>FLOWER PLANT</h1>
+      <P>$20</P>
+     </div>
+    <div class="m-5">
+        <img src="./images/flower-3.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+        <h1>STRAWBERRY PLANT</h1>
+        <P>$20</P>
+     </div>
+     <div class="m-5">
+          <img src="./images/flower-4.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>SUNFLOWER PLANT</h1>
+          <P>$20</P>
+      </div>
+      <div class="m-5">
+        <img src="./images/flower-1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+        <h1>REDROSE PLANT</h1>
+        <P>$20</P>
+      </div>
+      <div class="m-5">
+        <img src="./images/flower-2.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+        <h1>YELLOW PLANT</h1>
+        <P>$20</P>
+       </div>
+      <div class="m-5">
+          <img src="./images/flower-3.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>GREEN PLANT</h1>
+          <P>$20</P>
+       </div>
+       <div class="m-5">
+            <img src="./images/flower-4.png"  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>ICEFLOWER PLANT</h1>
+            <P>$20</P>
+        </div>
+  </div>
+  </div>
+   <!-- FOOTER -->
+   <div class="bg-green-200 p-10 flex flex-col gap-5">
+    <h1 class="font-bold text-4xl">GREENDEN</h1>
+    <p>The Standard chunk of Lorem ipsum used since the 1200s is reproduced below for the House</p>
+    <p>@ 2021 Greenday.com</p>
+   </div>
+
+   <script src="index3.js"></script>
+</body>
+</html>
